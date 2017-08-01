@@ -1,0 +1,64 @@
+@import url(boxlink.css);
+
+body
+{   background-color: #fff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px; margin-top: 150px;
+    margin-bottom: 60px;
+    background-image: url(nav/navbkg.gif);
+    background-repeat: repeat-y;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+div.topbanner
+{   position: absolute; top: 0px; left: 0px; 
+    background-image: url(/SD_Web/assets/img/topbarBG1.gif);
+    height: 93px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+div.topbar
+{   position: absolute; top: 93px; left: 0px; 
+    background-image: url(/SD_Web/assets/img/topbarbg.gif);
+    height: 27px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+div.topbar img
+{   border-style: none  }
+
+div.leftbar
+{   position: absolute; left:0px; top:150px; }
+
+div.content
+{   font-size: 100%; margin-right: 15%; margin-left: 8%; }
+
+div.bottom
+{   height:30px; position: absolute;
+    left:0px; bottom: 0px;
+}
+
+table.rollbar tr
+{  text-align: center;
+   vertical-align: middle;
+}
+
+table.rollbar td
+{  height: 26px;
+   width: 146px;
+}
+
+@media screen
+{   div.topbanner
+    {   position: fixed  }
+    div.topbar
+    {   position: fixed  }
+    div.leftbar
+    {   position: fixed  }
+    div.bottom
+    {   position: fixed  }
+}
